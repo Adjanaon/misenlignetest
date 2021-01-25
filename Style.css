@@ -1,0 +1,141 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	background-image: url(Images/darkbanner.jpg);
+	background-size: cover;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: white;
+}
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/*.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;*/
+}
+
+.div1 {
+	margin-top: 50px;
+}
+
+.divider-line{
+	border-bottom: 4px solid white;
+	width: 65%;
+}
+
+.firstclass{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	justify-content: center;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.par1 {
+	padding: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.row {
+	  padding: 30px 0;
+}
+
+.secondclass a {
+	margin: 10px 0 0 10px;
+	display: flex;
+	justify-content: center;
+	align-content: space-between
+}
+
+.titre2{
+		margin-top: 70px;
+}
+
+/*.w-100 {
+	max-height: 500px;
+}*/
+
+@media screen and (max-width: 600px) {
+	p{
+		width: 100%;
+	}
+
+	h2{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.par1 {
+		padding: 50px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.marketing .col-lg-4 p {
+		margin-right: 0rem;
+		margin-left: 0rem;
+}
+}
