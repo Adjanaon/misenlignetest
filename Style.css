@@ -45,7 +45,7 @@ h2{
 }
 
 .card-element2 {
-  width: 50%;
+  width: 100%;
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -99,6 +99,11 @@ h2{
 	justify-content: center;
 }
 
+.formm{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -141,6 +146,12 @@ h2{
 	align-content: space-between;
 	text-decoration: none;
 	color: white;
+}
+
+.tesst{
+	width: 45%;
+	padding: 15px 0;
+	margin: auto;
 }
 
 .thirdclass{
