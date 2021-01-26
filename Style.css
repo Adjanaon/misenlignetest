@@ -123,7 +123,14 @@ h2{
 	margin: 10px 0 0 10px;
 	display: flex;
 	justify-content: center;
-	align-content: space-between
+	align-content: space-between;
+	text-decoration: none;
+	color: white;
+}
+
+.thirdclass{
+	text-decoration: none;
+	color: white;
 }
 
 .titre2{
