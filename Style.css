@@ -69,6 +69,10 @@ h2{
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.carousel-item{
+		height: 800px;
+	}
+
 .div1 {
 	margin-top: 50px;
 }
@@ -158,13 +162,33 @@ h2{
 }
 
 @media screen and (max-width: 600px) {
-	p{
-		width: 100%;
-	}
-
+	
 	h2{
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+
+	p{
+		width: 100%;
+	}
+	
+	.cards2 {
+		width: 90%;
+	}
+
+	.carousel-item{
+		height: 230px;
+	}
+
+	.formm{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.marketing .col-lg-4 p {
+		margin-right: 0rem;
+		margin-left: 0rem;
 	}
 
 	.par1 {
@@ -173,22 +197,7 @@ h2{
 		margin-right: 0px;
 	}
 
-	.marketing .col-lg-4 p {
-		margin-right: 0rem;
-		margin-left: 0rem;
-	}
-
-	.formm{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	}
-
-	.cards2 {
-	width: 90%;
-	}
-
 	.tesst{
-	width: 90%;
+		width: 90%;
 	}
 }
