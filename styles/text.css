@@ -1,0 +1,85 @@
+body{
+	font-family: Tex Gyre Adventor, Helvetica, sans-serif;
+	margin: auto;
+	background-image: url(../Images/darkbanner.jpg);
+	background-size: cover;
+	color: white;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: white;
+}
+
+.div1 {
+	margin-top: 50px;
+}
+
+.endclass{
+	background-color: black;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+}
+
+.firstclass{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+}
+
+.marketing h2 {
+	font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+}
+
+.par1 {
+	padding: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.par2 {
+	padding: 50px;
+	text-align: center;
+}
+
+
+.secondclass a {
+	margin: 10px 0 0 10px;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	text-decoration: none;
+	color: white;
+}
+
+.thirdclass{
+	text-decoration: none;
+	color: white;
+}
+
+.titre2{
+	margin-top: 70px;
+}

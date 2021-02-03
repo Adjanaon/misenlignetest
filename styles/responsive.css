@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+	
+	h2{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	p{
+		width: 100%;
+	}
+	
+	.cards2 {
+		width: 90%;
+	}
+
+	.carousel-item{
+		height: 230px;
+	}
+
+	.formm{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.marketing .col-lg-4 p {
+		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+
+	.par1 {
+		padding: 50px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.tesst{
+		width: 90%;
+	}
+}
